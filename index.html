@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My Site</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: sans-serif; background: #fff; color: #111; }
+  nav { display: flex; gap: 1px; border-bottom: 1px solid #e0e0e0; background: #e0e0e0; }
+  nav a { flex: 1; padding: 14px; text-align: center; font-size: 14px; font-weight: 500; text-decoration: none; color: #666; background: #fff; transition: background 0.15s; cursor: pointer; }
+  nav a:hover { background: #f5f5f5; }
+  nav a.active { color: #111; border-bottom: 2px solid #111; }
+  .page { display: none; padding: 3rem 2rem; text-align: center; }
+  .page.active { display: block; }
+  .page h1 { font-size: 22px; font-weight: 500; margin-bottom: 0.75rem; }
+  .page p { font-size: 15px; color: #666; line-height: 1.7; margin-bottom: 1.5rem; }
+  .btn { display: inline-block; padding: 10px 24px; font-size: 14px; font-weight: 500; border: 1px solid #ccc; border-radius: 8px; text-decoration: none; color: #111; background: #f5f5f5; transition: background 0.15s; }
+  .btn:hover { background: #e8e8e8; }
+</style>
+</head>
+<body>
+
+<nav>
+  <a onclick="show(1)" id="tab1" class="active">maCleaner</a>
+  <a onclick="show(2)" id="tab2">LogCacher</a>
+  <a onclick="show(3)" id="tab3">NotchPlay</a>
+</nav>
+
+<div class="page active" id="page1">
+  <h1>maCleaner</h1>
+  <p>MacOS Disk Cleaner.</p>
+  <a class="btn" href="https://smallisbest.github.io/maCleaner/" target="_blank">maCleaner gogo →</a>
+</div>
+<div class="page" id="page2">
+  <h1>LogCacher</h1>
+  <p>Android log viewer of logcat.</p>
+  <a class="btn" href="https://smallisbest.github.io/LogCatcher/" target="_blank">LogCacher gogo →</a>
+</div>
+<div class="page" id="page3">
+  <h1>NotchPlay</h1>
+  <p>Notch media player.</p>
+  <a class="btn" href="https://smallisbest.github.io/NotchPlay/" target="_blank">NotchPlay gogo →</a>
+</div>
+
+<script>
+function show(n) {
+  [1,2,3].forEach(i => {
+    document.getElementById('page'+i).classList.toggle('active', i===n);
+    document.getElementById('tab'+i).classList.toggle('active', i===n);
+  });
+}
+</script>
+</body>
+</html>
