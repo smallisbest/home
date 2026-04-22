@@ -34,6 +34,7 @@
   <a onclick="show(1)" id="tab1" class="active">maCleaner</a>
   <a onclick="show(2)" id="tab2">LogCacher</a>
   <a onclick="show(3)" id="tab3">NotchPlay</a>
+  <a onclick="show(4)" id="tab3">GitViewTool</a>
 </nav>
 
 <div class="page active" id="page1">
@@ -51,10 +52,15 @@
   <p>Notch media player.</p>
   <a class="btn" href="https://smallisbest.github.io/NotchPlay/" target="_blank">NotchPlay gogo →</a>
 </div>
+<div class="page" id="page4">
+  <h1>GitViewTool</h1>
+  <p>ClearCase style Git View Tool</p>
+  <a class="btn" href="https://smallisbest.github.io/GitViewTool/" target="_blank">GitViewTool gogo →</a>
+</div>
 
 <script>
 function show(n) {
-  [1,2,3].forEach(i => {
+  [1,2,3,4].forEach(i => {
     document.getElementById('page'+i).classList.toggle('active', i===n);
     document.getElementById('tab'+i).classList.toggle('active', i===n);
   });
