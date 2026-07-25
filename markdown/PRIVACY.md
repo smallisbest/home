@@ -42,4 +42,4 @@ destination), this file will be updated and the date above revised.
 
 ## Contact
 
-Questions about this policy: melvin.kang@kakaocorp.com
+Questions about this policy: offsidus@gmail.com

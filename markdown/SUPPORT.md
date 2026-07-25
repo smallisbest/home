@@ -23,4 +23,4 @@ macOS 13.0 or later.
 
 ## Contact
 
-Questions, bug reports, or feature requests: melvin.kang@kakaocorp.com
+Questions, bug reports, or feature requests: offsidus@gmail.com
