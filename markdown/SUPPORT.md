@@ -1,11 +1,19 @@
 # Support — MarkdownViewer
 
-## Getting help
+## Contact support
 
-The app has built-in documentation: **Help menu** (or the Help button on the
-launch screen) opens a full walkthrough of every feature — opening files,
-Mermaid diagrams, split-screen editing, GitHub integration, exporting, and
-keyboard shortcuts.
+Have a question, found a bug, or want to request a feature? Email
+**offsidus@gmail.com** — every message gets a reply directly from the
+developer.
+
+## Full manual
+
+The complete feature walkthrough (opening files, Mermaid diagrams,
+split-screen editing, GitHub integration, exporting, keyboard shortcuts)
+is available in two places:
+
+- **In the app**: Help menu, or the Help button on the launch screen
+- **Online**: [English](HELP.en.html) · [한국어](HELP.ko.html)
 
 ## Requirements
 
@@ -20,7 +28,3 @@ macOS 13.0 or later.
   disk may fail to open.
 - **"Open from URL" only accepts `https://`.** Plain `http://` is rejected —
   this matches macOS's default network security policy.
-
-## Contact
-
-Questions, bug reports, or feature requests: offsidus@gmail.com
