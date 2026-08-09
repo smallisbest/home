@@ -14,7 +14,7 @@ Packet Loss / Bandwidth / Delay / Jitter 임페어먼트를 웹 UI에서 바로
 
 **Linux — Ubuntu 24.04+ (.deb)**
 
-**[⬇ Download .deb →](downloads/wne-latest_amd64.deb)** (v0.1.1)
+**[⬇ Download .deb →](downloads/wne-latest_amd64.deb)** (v0.1.2)
 
 ```
 sudo apt install ./wne-latest_amd64.deb
