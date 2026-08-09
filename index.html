@@ -37,7 +37,9 @@
   <a onclick="show(1)" id="tab1" class="active">maCleaner</a>
   <a onclick="show(2)" id="tab2">LogCatcher</a>
   <a onclick="show(3)" id="tab3">NotchPlay</a>
-  <a onclick="show(4)" id="tab3">GitViewTool</a>
+  <a onclick="show(4)" id="tab4">GitViewTool</a>
+  <a onclick="show(5)" id="tab5">markdown</a>
+  <a onclick="show(6)" id="tab6">wne</a>
 </nav>
 
 <div class="page active" id="page1">
@@ -60,10 +62,20 @@
   <p>ClearCase style Git View Tool</p>
   <a class="btn" href="https://smallisbest.github.io/GitViewTool/" target="_blank">GitViewTool gogo →</a>
 </div>
+<div class="page" id="page5">
+  <h1>markdown</h1>
+  <p>Native markdown viewer for macOS — live Mermaid, GitHub sync, multi-format export.</p>
+  <a class="btn" href="markdown/" target="_blank">markdown gogo →</a>
+</div>
+<div class="page" id="page6">
+  <h1>wne</h1>
+  <p>L2 network emulator for Linux / macOS / Windows — bridge, bypass, loss, bandwidth, delay, jitter.</p>
+  <a class="btn" href="wne/" target="_blank">wne gogo →</a>
+</div>
 
 <script>
 function show(n) {
-  [1,2,3,4].forEach(i => {
+  [1,2,3,4,5,6].forEach(i => {
     document.getElementById('page'+i).classList.toggle('active', i===n);
     document.getElementById('tab'+i).classList.toggle('active', i===n);
   });
