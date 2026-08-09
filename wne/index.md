@@ -51,16 +51,6 @@ change immediately after install) · Web UI: `http://<host>:8080`
 - [Read in English →](HELP.en.html)
 - [한국어로 보기 →](HELP.ko.html)
 
-## Source / 소스 코드
-
-이 프로젝트는 오픈소스입니다. 소스 코드, 이슈 트래커, 상세 구현 문서는
-GitHub 저장소를 참고하세요.
-
-This project is open source. Source, issue tracker, and in-depth
-implementation docs live in the GitHub repository.
-
-**[github.com/outsidus/wne →](https://github.com/outsidus/wne)**
-
 ## Other
 
 - [Support](SUPPORT.html)

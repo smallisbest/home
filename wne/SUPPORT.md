@@ -2,21 +2,14 @@
 
 ## Contact / report an issue
 
-WNE is open source. Bugs, questions, and feature requests go on the
-GitHub issue tracker:
+Bugs, questions, and feature requests: email **offsidus@gmail.com**.
 
-**[github.com/outsidus/wne/issues →](https://github.com/outsidus/wne/issues)**
-
-You can also email **offsidus@gmail.com** directly.
-
-WNE 는 오픈소스입니다. 버그 제보, 질문, 기능 요청은 GitHub 이슈
-트래커를 이용해 주세요. 이메일(offsidus@gmail.com)로도 연락 가능합니다.
+버그 제보, 질문, 기능 요청은 이메일(offsidus@gmail.com)로 연락해
+주세요.
 
 ## Manual
 
 - [English](HELP.en.html) · [한국어](HELP.ko.html)
-- Full technical reference and internals live in the repo itself:
-  `MANUAL.md`, `IMPLEMENTATION.md`, `UBUNTU_GUIDE.md`
 
 ## Requirements
 

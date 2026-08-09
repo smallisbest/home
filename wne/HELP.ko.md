@@ -190,14 +190,5 @@ Linux 는 `tc`/`nftables`/`hostapd` 커널 네이티브 메커니즘을 그대�
 
 ## 9. 더 알아보기
 
-전체 기능 레퍼런스, 내부 구현 원리(각 OS 가 정확히 어떤 커널
-기능/명령을 쓰는지), 배치 시나리오(AP 구성, L2 relay, 관리망 분리 등)
-는 GitHub 저장소의 문서를 참고하세요.
-
-- [github.com/outsidus/wne](https://github.com/outsidus/wne)
-- Ubuntu 단계별 설치 가이드: `UBUNTU_GUIDE.md`
-- 전체 기능 레퍼런스: `MANUAL.md`
-- 내부 구현 + 배치 시나리오: `IMPLEMENTATION.md`
-
 문제를 발견했거나 기능 요청이 있으면 [Support](SUPPORT.html) 페이지를
 참고하세요.

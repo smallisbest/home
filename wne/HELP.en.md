@@ -200,13 +200,4 @@ Windows generally have lower throughput than Linux.
 
 ## 9. Learn more
 
-For the full feature reference, exactly how each OS implements
-everything under the hood, and deployment scenarios (AP setups, L2
-relay, management-network isolation), see the GitHub repository's docs.
-
-- [github.com/outsidus/wne](https://github.com/outsidus/wne)
-- Step-by-step Ubuntu install guide: `UBUNTU_GUIDE.md`
-- Full feature reference: `MANUAL.md`
-- Internals + deployment scenarios: `IMPLEMENTATION.md`
-
 Found a bug or have a feature request? See the [Support](SUPPORT.html) page.
