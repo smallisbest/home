@@ -23,6 +23,12 @@
   .page p { font-size: 15px; color: #666; line-height: 1.7; margin-bottom: 1.5rem; }
   .btn { display: inline-block; padding: 10px 24px; font-size: 14px; font-weight: 500; border: 1px solid #ccc; border-radius: 8px; text-decoration: none; color: #111; background: #f5f5f5; transition: background 0.15s; }
   .btn:hover { background: #e8e8e8; }
+
+  .page.embed { padding: 0; text-align: left; }
+  .embed-bar { display: flex; align-items: center; justify-content: flex-end; padding: 8px 16px; border-bottom: 1px solid #f0f0f0; }
+  .embed-bar a { font-size: 13px; color: #666; text-decoration: none; }
+  .embed-bar a:hover { color: #111; }
+  .page.embed iframe { display: block; width: 100%; height: 78vh; border: 0; }
 </style>
 </head>
 <body>
@@ -62,15 +68,13 @@
   <p>ClearCase style Git View Tool</p>
   <a class="btn" href="https://smallisbest.github.io/GitViewTool/" target="_blank">GitViewTool gogo →</a>
 </div>
-<div class="page" id="page5">
-  <h1>markdown</h1>
-  <p>Native markdown viewer for macOS — live Mermaid, GitHub sync, multi-format export.</p>
-  <a class="btn" href="markdown/" target="_blank">markdown gogo →</a>
+<div class="page embed" id="page5">
+  <div class="embed-bar"><a href="markdown/" target="_blank">markdown ↗ open in new tab</a></div>
+  <iframe data-src="markdown/" title="markdown"></iframe>
 </div>
-<div class="page" id="page6">
-  <h1>wne</h1>
-  <p>L2 network emulator for Linux / macOS / Windows — bridge, bypass, loss, bandwidth, delay, jitter.</p>
-  <a class="btn" href="wne/" target="_blank">wne gogo →</a>
+<div class="page embed" id="page6">
+  <div class="embed-bar"><a href="wne/" target="_blank">wne ↗ open in new tab</a></div>
+  <iframe data-src="wne/" title="wne"></iframe>
 </div>
 
 <script>
@@ -79,6 +83,12 @@ function show(n) {
     document.getElementById('page'+i).classList.toggle('active', i===n);
     document.getElementById('tab'+i).classList.toggle('active', i===n);
   });
+  // Lazy-load embedded pages only when their tab is first opened.
+  var iframe = document.getElementById('page'+n).querySelector('iframe[data-src]');
+  if (iframe) {
+    iframe.src = iframe.dataset.src;
+    iframe.removeAttribute('data-src');
+  }
 }
 </script>
 </body>
